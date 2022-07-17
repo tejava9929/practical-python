@@ -21,7 +21,7 @@ while principal>0 :
         total_paid += principal
         principal = 0
     month += 1
-    print(month, total_paid, principal)
+    print(f'month {month}: Paid ${total_paid:0.2f}, last principal : {principal:0.2f}')
     #python에서 print에서는, 변수 사이에 공백 자동 삽입
     
 print('Total paid', total_paid)
